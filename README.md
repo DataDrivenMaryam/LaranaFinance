@@ -134,7 +134,7 @@ The following KPIs were developed to provide an overall view of loan application
 | **Average Annuity** | Average annuity/payment amount across the loan applications | **$11,616.01** |
 | **Average Application Amount** | Average amount requested per loan application | **$150,211.06** |
 | **Total Down Payment** | Total value of down payments across the loan applications | **$3,346,248** |
-| **Average Decision Time** | Average time taken to reach a decision on a loan application | **913.15** |
+| **Average Decision Time** | Average time taken to reach a decision on a loan application | **913 days** |
 
 ## Pivot Table Analysis
 
