@@ -103,7 +103,7 @@ The model was designed to support filtering, aggregation and analysis across dif
 
 ### Data Model
 
-![Loan Credit Risk Data Model](images/data-model.png)
+!(Data model.jpeg)
 
 Once you commit the README, GitHub should display your screenshot directly underneath the heading.
 
