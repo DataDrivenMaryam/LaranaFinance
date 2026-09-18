@@ -115,20 +115,26 @@ Use the KPIs you created during your project:
 
 The following KPIs were developed to provide an overview of lending performance:
 
-| KPI | Description |
-|---|---|
-| Total Applications | Total number of loan applications |
-| Approved Applications | Number of approved applications |
-| Refused Applications | Number of refused applications |
-| Canceled Applications | Number of canceled applications |
-| Approval Rate | Percentage of applications that were approved |
-| Refusal Rate | Percentage of applications that were refused |
-| Total Application Amount | Total value of application amounts |
-| Average Application Amount | Average application amount |
-| Total Credit Amount | Total value of credit amounts |
-| Average Credit Amount | Average credit amount per application |
-| Average Annuity | Average annuity value |
-| Total Down Payment | Total value of down payments |
+## Key Performance Indicators
+
+The following KPIs were developed to provide an overall view of loan application volume, approval performance, credit exposure, application values and decision performance.
+
+| KPI | Description | Measure |
+|---|---|---:|
+| **No. of Applications** | Total number of loan applications analysed | **1,000** |
+| **Approval Rate** | Percentage of loan applications that were approved | **65%** |
+| **Total Applications** | Total number of loan application records in the dataset | **1,000** |
+| **Refusal Rate** | Percentage of loan applications that were refused | **18%** |
+| **Approved Applications** | Total number of loan applications that received an approval decision | **651** |
+| **Total Requested Amount** | Total value of the amounts requested across all loan applications | **$150,211,062** |
+| **Refused Applications** | Total number of loan applications that were refused | **181** |
+| **Total Credit Amount** | Total value of credit amounts associated with the loan applications | **$169,014,107** |
+| **Cancelled Applications** | Total number of loan applications that were cancelled | **148** |
+| **Average Credit Amount** | Average credit amount per loan application | **$169,014.11** |
+| **Average Annuity** | Average annuity/payment amount across the loan applications | **$11,616.01** |
+| **Average Application Amount** | Average amount requested per loan application | **$150,211.06** |
+| **Total Down Payment** | Total value of down payments across the loan applications | **$3,346,248** |
+| **Average Decision Time** | Average time taken to reach a decision on a loan application | **913.15** |
 
 ## Pivot Table Analysis
 
