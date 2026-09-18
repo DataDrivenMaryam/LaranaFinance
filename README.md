@@ -163,4 +163,69 @@ The dashboard provides a management-level overview of loan application activity,
 ![Loan Credit Risk Dashboard](images/loan-dashboard.png)
 
 When you save the README, GitHub should display your dashboard image.
+## Key Business Insights
 
+## Key Business Insights
+
+### Application Volume
+
+The Low application amount band contains the largest number of applications, with 610 out of 1,000 applications (61% of the portfolio).
+
+However, its approval rate is 61%, below the overall portfolio approval rate of 65%.
+
+###  Application Amount Performance
+
+The Medium application amount band records the highest approval rate at 74%, compared with the overall portfolio rate of 65%.
+
+The Very High application amount band has the lowest approval rate at 59% and the highest refusal rate at 41%.
+
+Despite containing only 61 applications, the Very High application amount band contributes £63.25 million in total credit, the highest across the application amount bands.
+
+### Credit Amount Exposure
+
+The Very High credit amount band contains 73 applications but contributes £72.01 million in total credit, representing approximately 43% of total credit exposure.
+
+This indicates that a relatively small number of high-value applications account for a substantial proportion of the portfolio's credit value.
+
+The Very High credit band has a 62% approval rate and 38% refusal rate, compared with the overall approval rate of 65%.
+
+### Medium Credit Performance
+
+The Medium credit amount band records the highest approval rate at 76%.
+
+It contains 271 applications and contributes £46.10 million in total credit.
+
+This represents an 11 percentage-point higher approval rate than the overall portfolio.
+
+### Decision Speed
+
+Very Slow decisions account for 671 applications, representing 67.1% of the dataset.
+
+This category records the highest approval rate at 77%, compared with the overall portfolio approval rate of 65%.
+
+However, this result represents an observed relationship in the dataset and does not establish that longer decision times cause higher approval rates.
+
+### Very Fast Decisions
+
+Very Fast decisions have the lowest approval rate at 26%.
+
+However, this category contains only 19 applications, representing 1.9% of the dataset. Therefore, the result should be interpreted cautiously due to the small sample size.
+
+### Average Credit Exposure by Decision Speed
+
+Moderate decisions have the highest average credit amount at £204,810.85, compared with the overall average of £169,014.11.
+
+Very Fast decisions have the lowest average credit amount at £115,911.95.
+
+This shows that average credit exposure varies across decision-speed categories.
+
+## Business Recommendations
+
+Based on the analysis, the following areas could be considered by management:
+
+- Review application performance across different contract types.
+- Monitor high-value credit exposure.
+- Investigate differences in approval rates across loan purposes.
+- Monitor decision speed and its relationship with application outcomes.
+- Use application and credit amount bands to support portfolio monitoring.
+- Continue monitoring refusal and approval patterns over time.
