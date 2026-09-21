@@ -105,11 +105,6 @@ The model was designed to support filtering, aggregation and analysis across dif
 
 ![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/f527f156db2073b9fb56ed507f4c3f81a8eefe32/Data%20model.jpeg)
 
-Once you commit the README, GitHub should display your screenshot directly underneath the heading.
-
-STEP 12 — Add your KPI section
-
-Use the KPIs you created during your project:
 
 ## Key Performance Indicators
 
