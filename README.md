@@ -162,9 +162,6 @@ The dashboard provides a management-level overview of loan application activity,
 
 ![Loan Credit Risk Dashboard](images/loan-dashboard.png)
 
-When you save the README, GitHub should display your dashboard image.
-## Key Business Insights
-
 ## Key Business Insights
 
 ### Application Volume
@@ -198,7 +195,7 @@ It contains 271 applications and contributes £46.10 million in total credit.
 This represents an 11 percentage-point higher approval rate than the overall portfolio.
 
 ### Decision Speed
-
+![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/998e4b2d2d7cfbd8ef544b3d09ce5b56c8dcde2e/Decision%20speed%20.jpeg)
 Very Slow decisions account for 671 applications, representing 67.1% of the dataset.
 
 This category records the highest approval rate at 77%, compared with the overall portfolio approval rate of 65%.
