@@ -90,14 +90,39 @@ This helped ensure that Pivot Tables, measures and visualisations produced consi
 
 ## Data Modelling
 
+The loan analytics data model was designed using a **fact and dimension structure** to make the analysis easier to manage, improve reporting performance, and allow stakeholders to analyse loan applications from different business perspectives.
+
+The model contains two main application tables supported by several dimension tables.
+
+### Data Model Overview
+
+The main tables are:
+
+- **Loan Application** – contains information about current loan applications.
+- **Fact Previous Application** – contains information about customers' previous loan applications.
+- **Dim Contract type** – contains contract/loan contract type information.
+- **Dim Loan Purpose** – contains the different purposes for which loans were requested.
+- **Dim Contract Status** – contains application status categories.
+- **Dim Payment Type** – contains payment type information.
+
+### Relationship Structure
+
+The model follows a **one-to-many (1:*) relationship** between the dimension tables and the application data.
+
+In simple terms:
+
+> **One record in a dimension table can be linked to many application records in the fact/application table.**
+
+For example, one contract type such as **Cash Loans** can appear in many loan application records.
+
 A structured data model was created to support analysis and reduce dependency on repeated fields within the fact tables.
 
 The model includes the main application data together with supporting dimension tables such as:
 
-- Contract
-- Loan Purpose
-- Status
-- Payment Type
+- Dim Contract Type
+- Dim Loan Purpose
+- Dim Contract Status
+- Dim Payment Type
 
 The model was designed to support filtering, aggregation and analysis across different dimensions of the loan portfolio.
 
