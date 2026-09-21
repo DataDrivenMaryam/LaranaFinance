@@ -165,6 +165,7 @@ The dashboard provides a management-level overview of loan application activity,
 ## Key Business Insights
 
 ### Application Volume
+![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/6a2394de6c576ec936bca652019683510e8145a0/Application%20Timiming.jpeg)
 
 The Low application amount band contains the largest number of applications, with 610 out of 1,000 applications (61% of the portfolio).
 
@@ -194,7 +195,7 @@ It contains 271 applications and contributes £46.10 million in total credit.
 
 This represents an 11 percentage-point higher approval rate than the overall portfolio.
 
-### Decision Speed
+### Decision Speed Analysis
 ![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/998e4b2d2d7cfbd8ef544b3d09ce5b56c8dcde2e/Decision%20speed%20.jpeg)
 Very Slow decisions account for 671 applications, representing 67.1% of the dataset.
 
