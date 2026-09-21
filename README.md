@@ -164,6 +164,10 @@ The dashboard provides a management-level overview of loan application activity,
 
 ## Key Business Insights
 
+### Contract Type Analysis
+
+![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/885a278eb075b138cf8cc9989eac3181bd6b754f/Contract%20type.jpeg)
+
 ### 1. Consumer Loans Have the Highest Approval Rate
 
 **Observation**  
@@ -181,7 +185,6 @@ Consumer loans demonstrate the strongest approval performance in the portfolio. 
 **Recommendation**  
 Management should analyse the characteristics of successful consumer-loan applications and identify whether similar characteristics could improve approval performance in other contract types.
 
----
 
 ### 2. Consumer Loans Have the Highest Application Volume
 
@@ -201,7 +204,6 @@ Consumer loans are an important part of the lending portfolio because they gener
 **Recommendation**  
 Management should continue monitoring consumer-loan demand and investigate the customer and product characteristics contributing to its high application volume.
 
----
 
 ### 3. Cash Loans Have the Highest Number of Cancellations
 
@@ -221,7 +223,6 @@ The high cancellation level may indicate potential friction within the cash-loan
 **Recommendation**  
 Management should investigate the reasons for cash-loan cancellations and identify where customers are dropping out of the application process.
 
----
 
 ### 4. Revolving Loans Have the Lowest Application Volume
 
@@ -241,8 +242,6 @@ Revolving loans currently represent a smaller proportion of the lending applicat
 **Recommendation**  
 Management should analyse customer demand, product awareness, eligibility requirements and rejection patterns to understand the lower application volume.
 
----
-
 ### 5. Cash and Revolving Loans Have Similar Approval Performance
 
 **Observation**  
@@ -261,7 +260,6 @@ The lower approval performance is not isolated to cash loans. Both contract type
 **Recommendation**  
 Management should compare rejection reasons, applicant characteristics and loan characteristics across contract types to identify factors contributing to the lower approval rates.
 
----
 
 ### 6. Data Quality Check: Application Statuses Do Not Fully Reconcile
 
@@ -290,15 +288,11 @@ The same issue appears within consumer loans:
 - Combined: **520**
 - Total applications: **540**
 
-This leaves **20 consumer-loan applications** without a corresponding status in the table.
-
 **Business Meaning**  
 The discrepancy may indicate missing, uncategorised or differently defined application statuses. This could affect the interpretation of approval and refusal metrics if the unmatched records are not investigated.
 
 **Recommendation**  
 The data should be investigated to determine whether the 20 applications represent missing status values, additional status categories, duplicate records or a transformation issue. The status categories should reconcile to the total application count before the analysis is used for final management decisions.
-
----
 
 ## Summary of Key Findings
 
@@ -312,6 +306,7 @@ The data should be investigated to determine whether the 20 applications represe
 | Data Quality | **20 applications** cannot be reconciled against the reported status categories |
 
 > **Overall Insight:** Consumer loans demonstrate both the highest application volume and the highest approval rate, while cash loans show a relatively high cancellation level and lower approval performance. Revolving loans have the lowest application volume. A data-quality check also identified 20 applications that do not reconcile with the approved, refused and cancelled totals, highlighting an area that should be investigated before using the status analysis for final management decisions.
+> 
 ### Application Volume
 ![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/6a2394de6c576ec936bca652019683510e8145a0/Application%20Timiming.jpeg)
 
