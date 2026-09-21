@@ -164,6 +164,154 @@ The dashboard provides a management-level overview of loan application activity,
 
 ## Key Business Insights
 
+### 1. Consumer Loans Have the Highest Approval Rate
+
+**Observation**  
+Consumer loans have a significantly higher approval rate compared with the other contract types.
+
+**Evidence**  
+- Consumer loans: **86% approval rate**
+- Revolving loans: **43% approval rate**
+- Cash loans: **40% approval rate**
+- Consumer loans recorded **463 approved applications out of 540 applications**.
+
+**Business Meaning**  
+Consumer loans demonstrate the strongest approval performance in the portfolio. This suggests that applicants applying for consumer loans are more frequently meeting the lender's approval criteria.
+
+**Recommendation**  
+Management should analyse the characteristics of successful consumer-loan applications and identify whether similar characteristics could improve approval performance in other contract types.
+
+---
+
+### 2. Consumer Loans Have the Highest Application Volume
+
+**Observation**  
+Consumer loans account for the largest share of applications.
+
+**Evidence**  
+- Consumer loans: **540 applications**
+- Cash loans: **356 applications**
+- Revolving loans: **104 applications**
+
+Consumer loans represent approximately **54% of the 1,000 applications** analysed.
+
+**Business Meaning**  
+Consumer loans are an important part of the lending portfolio because they generate the highest level of customer demand.
+
+**Recommendation**  
+Management should continue monitoring consumer-loan demand and investigate the customer and product characteristics contributing to its high application volume.
+
+---
+
+### 3. Cash Loans Have the Highest Number of Cancellations
+
+**Observation**  
+Cash loans recorded substantially more cancelled applications than the other contract types.
+
+**Evidence**  
+- Cash loans: **126 cancellations**
+- Revolving loans: **21 cancellations**
+- Consumer loans: **1 cancellation**
+
+The 126 cancellations represent approximately **35% of cash-loan applications**.
+
+**Business Meaning**  
+The high cancellation level may indicate potential friction within the cash-loan application journey, changes in customer decisions, eligibility issues or other process-related factors.
+
+**Recommendation**  
+Management should investigate the reasons for cash-loan cancellations and identify where customers are dropping out of the application process.
+
+---
+
+### 4. Revolving Loans Have the Lowest Application Volume
+
+**Observation**  
+Revolving loans have considerably fewer applications than both cash and consumer loans.
+
+**Evidence**  
+- Revolving loans: **104 applications**
+- Cash loans: **356 applications**
+- Consumer loans: **540 applications**
+
+Revolving loans represent approximately **10.4% of total applications**.
+
+**Business Meaning**  
+Revolving loans currently represent a smaller proportion of the lending application portfolio.
+
+**Recommendation**  
+Management should analyse customer demand, product awareness, eligibility requirements and rejection patterns to understand the lower application volume.
+
+---
+
+### 5. Cash and Revolving Loans Have Similar Approval Performance
+
+**Observation**  
+Cash and revolving loans have relatively similar approval rates despite having different application volumes.
+
+**Evidence**  
+- Cash loans: **40% approval rate**
+- Revolving loans: **43% approval rate**
+- Difference: **3 percentage points**
+
+However, cash loans received **356 applications**, compared with only **104 applications** for revolving loans.
+
+**Business Meaning**  
+The lower approval performance is not isolated to cash loans. Both contract types have substantially lower approval rates than consumer loans.
+
+**Recommendation**  
+Management should compare rejection reasons, applicant characteristics and loan characteristics across contract types to identify factors contributing to the lower approval rates.
+
+---
+
+### 6. Data Quality Check: Application Statuses Do Not Fully Reconcile
+
+**Observation**  
+The total number of applications does not fully reconcile with the approved, refused and cancelled application totals.
+
+**Evidence**  
+
+The Grand Total shows:
+
+| Application Status | Total |
+|---|---:|
+| Approved | 651 |
+| Refused | 181 |
+| Cancelled | 148 |
+| **Combined Statuses** | **980** |
+| **Total Applications** | **1,000** |
+
+The three reported statuses total **980 applications**, leaving **20 applications unaccounted for**.
+
+The same issue appears within consumer loans:
+
+- Refused: **56**
+- Approved: **463**
+- Cancelled: **1**
+- Combined: **520**
+- Total applications: **540**
+
+This leaves **20 consumer-loan applications** without a corresponding status in the table.
+
+**Business Meaning**  
+The discrepancy may indicate missing, uncategorised or differently defined application statuses. This could affect the interpretation of approval and refusal metrics if the unmatched records are not investigated.
+
+**Recommendation**  
+The data should be investigated to determine whether the 20 applications represent missing status values, additional status categories, duplicate records or a transformation issue. The status categories should reconcile to the total application count before the analysis is used for final management decisions.
+
+---
+
+## Summary of Key Findings
+
+| Area | Key Finding |
+|---|---|
+| Application Volume | Consumer loans have the highest volume with **540 applications** |
+| Approval Performance | Consumer loans have the highest approval rate at **86%** |
+| Cancellations | Cash loans have the highest cancellations with **126 applications** |
+| Lowest Volume | Revolving loans have the lowest volume with **104 applications** |
+| Cash vs Revolving | Approval rates are similar at **40% and 43%** respectively |
+| Data Quality | **20 applications** cannot be reconciled against the reported status categories |
+
+> **Overall Insight:** Consumer loans demonstrate both the highest application volume and the highest approval rate, while cash loans show a relatively high cancellation level and lower approval performance. Revolving loans have the lowest application volume. A data-quality check also identified 20 applications that do not reconcile with the approved, refused and cancelled totals, highlighting an area that should be investigated before using the status analysis for final management decisions.
 ### Application Volume
 ![image alt](https://github.com/DataDrivenMaryam/LaranaFinance/blob/6a2394de6c576ec936bca652019683510e8145a0/Application%20Timiming.jpeg)
 
